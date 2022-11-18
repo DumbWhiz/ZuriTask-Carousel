@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+
+*{
+    box-sizing:border-box;
+}
+
+/* ROOT */
+:root{
+    background-color: grey;
+    font-family: 'Lexend Deca';
+    font-size: 20px;
+}
+
+.slideshow-container{
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+}
+
+.slides{
+    display:none;
+}
+
+.prev, .next{
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: ;
+    font-weight: bold;
+    font-size: 18px;
+}

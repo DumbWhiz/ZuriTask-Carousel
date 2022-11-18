@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="carousel.css">
+    <title>Carousel|Slideshow</title>
+</head>
+<script src="script.js"></script>
+<body>
+    <div class="slideshow-container">
+        <div class="slides slide-1 fade">
+            <div class="num">1/6</div>
+            <div class="img"><img src="chessimg.jpg" alt="" width="100%" height="50%"></div>
+            <div class="text">Chess</div>
+        </div>
+        <div class="slides slide-2 fade">
+            <div class="num">2/6</div>
+            <img src="icons.png" alt="" width="100%">
+            <div class="text">Chess: The Past and The Present</div>
+        </div>
+        <div class="slides slide-4 fade">
+            <div class="num">4/6</div>
+            <div class="img"><img src="kasp2.jpg" alt="" width="100%"></div>
+            <div class="text">Chess: Garry Kasparov</div>
+        </div>
+        <div class="slides slide-3 fade">
+            <div class="num">3/6</div>
+            <div class="img"><img src="MC5.jpg" alt="" width="100%"></div>
+            <div class="text">Chess: Magnus Carlsen</div>
+        </div>
+        
+        <div class="slides slide-5 fade">
+            <div class="num">5/6</div>
+            <div class="img"><img src="bobby2.jpg" alt="" width="100%"></div>
+            <div class="text">Chess: Bobby Fischer</div>
+        </div>
+        <div class="slides slide-6 fade">
+            <div class="num">6/6</div>
+            <div class="img"><img src="hik2.jpg" alt="" width="100%"></div>
+            <div class="text">Chess: Hikaru Nakamura</div>
+        </div>
+        
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    
+    </div>
+    <br>
+    <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+        <span class="dot" onclick="currentSlide(5)"></span>
+        <span class="dot" onclick="currentSlide(6)"></span>
+        
+      </div>
+
+      <script src="script.js"></script>
+</body>
+</html>
